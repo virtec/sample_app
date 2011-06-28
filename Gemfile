@@ -13,7 +13,9 @@ end
 
 group :test do
   gem 'rspec-rails', '2.6.1'
-  # gem 'webrat', '0.7.1'
+  gem 'webrat', '0.7.3'
+  gem 'mynyml-redgreen', '0.7.1'
+  gem 'test-unit', '2.3.0'
 end
 
 # Use unicorn as the web server
