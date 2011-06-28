@@ -16,6 +16,7 @@ group :test do
   gem 'webrat', '0.7.3'
   gem 'mynyml-redgreen', '0.7.1'
   gem 'test-unit', '2.3.0'
+  gem 'ZenTest', '4.5.0'
 end
 
 # Use unicorn as the web server
