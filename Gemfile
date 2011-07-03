@@ -7,6 +7,8 @@ gem 'rails', '3.0.9'
 
 gem 'sqlite3', '1.3.3'
 
+gem 'gravatar_image_tag'
+
 group :development do
   gem 'rspec-rails', '2.6.1'
   gem 'annotate', '2.4.0'
@@ -18,6 +20,7 @@ group :test do
   gem 'mynyml-redgreen', '0.7.1'
   gem 'test-unit', '2.3.0'
   gem 'ZenTest', '4.5.0'
+  gem 'factory_girl_rails', '1.0.1'
 end
 
 # Use unicorn as the web server
