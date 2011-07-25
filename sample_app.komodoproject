@@ -1,4 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Komodo Project File - DO NOT EDIT -->
 <project id="29aef812-d39a-4837-b480-5aa403cf05c0" kpf_version="5" name="sample_app.komodoproject">
+<preference-set idref="29aef812-d39a-4837-b480-5aa403cf05c0">
+  <string relative="path" id="import_dirname"></string>
+  <string id="import_exclude_matches"></string>
+  <string id="import_include_matches"></string>
+  <string id="mappedPaths"></string>
+</preference-set>
 </project>
