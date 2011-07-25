@@ -1,8 +1,13 @@
 <%= form_for @micropost do |f| %>
   <%= render 'shared/error_messages', :object => f.object %>
   <div class="field">
-    <%= f.text_area :content %>
+    <%= f.text_area :content %><br />
+	Maximum characters 140. You have <span>140</span> left.
   </div>
+<script type="text/javascript">jQuery('textarea').textLimit(140, function( length, limit ) {
+	jQuery(this).parent().find('span').text( limit - length );
+});
+</script>
   <div class="actions">
     <%= f.submit "Submit" %>
   </div>
